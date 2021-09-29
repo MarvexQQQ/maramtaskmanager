@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addtaskactivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Titel" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="61dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="61dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="subject" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/nec"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="173dp"
+        android:layout_height="119dp"
+        app:srcCompat="@mipmap/mylogo"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <SeekBar
+        android:id="@+id/sb"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="405dp"
+        android:layout_height="89dp"
+        android:max="10"
+        android:progress="3"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <Button
+        android:id="@+id/btn0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save!"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="672dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

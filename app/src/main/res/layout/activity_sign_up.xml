@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="first name"
+        android:textColorHint="#150000">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="411dp"
+        android:layout_height="80dp"
+        android:hint="last name"
+        android:textColorHint="#130101"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="67dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="414dp"
+        android:layout_height="62dp"
+        android:hint="Email"
+        android:textColorHint="#120000"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="144dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/t3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="408dp"
+        android:layout_height="70dp"
+        android:hint="your password"
+        android:textColorHint="#100000"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="216dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/t4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="409dp"
+        android:layout_height="60dp"
+        android:hint="your number"
+        android:textColorHint="#0E0101"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="293dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/t5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save!"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="378dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
