@@ -10,7 +10,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class historyactivity extends AppCompatActivity {
     private SearchView sv;
-    private ListView ld;
+    private ListView lv;
 
 
     @Override
@@ -18,7 +18,7 @@ public class historyactivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_historyactivity);
         sv=findViewById(R.id.sv);
-        ld=findViewById(R.id.ld);
+        lv=findViewById(R.id.lv);
 
     }
 }
