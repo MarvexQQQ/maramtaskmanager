@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "720629930336",
+    "project_id": "maramtaskmanger",
+    "storage_bucket": "maramtaskmanger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720629930336:android:6075a9a6fe4085533fa605",
+        "android_client_info": {
+          "package_name": "com.example.maramtaskmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720629930336-ko12rrt1i81dpbejmrsmen6e0fcqdmtq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXn-6P5bydk_03-0vAN-109ebGds3jm8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720629930336-ko12rrt1i81dpbejmrsmen6e0fcqdmtq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

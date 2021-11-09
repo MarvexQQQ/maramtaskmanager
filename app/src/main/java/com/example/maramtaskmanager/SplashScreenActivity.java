@@ -13,5 +13,19 @@ public class SplashScreenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
         img1=findViewById(R.id.img1);
+
+
+        Thread th= new Thread(){
+            @Override
+            public void run() {
+                // here is the part that will run while others are running
+                int i =3*1000;
+                try {
+                    sleep(i);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        };
     }
 }
