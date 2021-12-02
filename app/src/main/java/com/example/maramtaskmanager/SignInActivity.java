@@ -3,6 +3,7 @@ package com.example.maramtaskmanager;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 import com.google.android.material.textfield.TextInputEditText;
@@ -19,5 +20,8 @@ public class SignInActivity extends AppCompatActivity {
         etpassword=findViewById(R.id.etpassword);
         btnsignin=findViewById(R.id.btnsignin);
         btnregister=findViewById(R.id.btnregister);
+
+
+
     }
 }

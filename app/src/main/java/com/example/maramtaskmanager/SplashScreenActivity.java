@@ -2,6 +2,7 @@ package com.example.maramtaskmanager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 
@@ -19,9 +20,10 @@ public class SplashScreenActivity extends AppCompatActivity {
             @Override
             public void run() {
                 // here is the part that will run while others are running
-                int i =3*1000;
+                int ms =3*1000;
                 try {
-                    sleep(i);
+                    sleep(ms);
+                    startActivity(new Intent(getApplicationContext(),SignUpActivity.class));
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
