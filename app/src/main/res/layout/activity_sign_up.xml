@@ -8,83 +8,83 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout4"
-        android:layout_width="1285dp"
-        android:layout_height="275dp"
-        tools:layout_editor_absoluteX="-20dp">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/t1"
             android:layout_width="match_parent"
-            android:layout_height="290dp"
+            android:layout_height="wrap_content"
             android:text="first name "
-            android:textSize="96sp" />
+            android:textSize="20sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout5"
-        android:layout_width="1260dp"
-        android:layout_height="295dp"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="300dp">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout4">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/t2"
-            android:layout_width="1259dp"
-            android:layout_height="310dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:hint="last name "
             android:textColor="#000000"
-            android:textSize="96sp" />
+            android:textSize="20sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="1270dp"
-        android:layout_height="260dp"
-        tools:layout_editor_absoluteX="-5dp"
-        tools:layout_editor_absoluteY="640dp">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/t3"
-            android:layout_width="match_parent"
-            android:layout_height="280dp"
-            android:hint="your email"
-            android:textColor="#020202"
-            android:textSize="96sp" />
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="1270dp"
-        android:layout_height="200dp"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="930dp">
+        android:id="@+id/textInputLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="120dp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/t4"
             android:layout_width="match_parent"
-            android:layout_height="210dp"
+            android:layout_height="wrap_content"
             android:hint="password"
-            android:textSize="96sp" />
+            android:textSize="20sp" />
+
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="1255dp"
-        android:layout_height="245dp"
-        tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="1165dp">
+        android:id="@+id/textInputLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout6"
+        tools:layout_editor_absoluteX="-16dp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/t5"
             android:layout_width="match_parent"
-            android:layout_height="255dp"
+            android:layout_height="wrap_content"
             android:hint="phone number"
-            android:textSize="96sp" />
+            android:textSize="20sp"
+            tools:layout_conversion_absoluteHeight="61dp"
+            tools:layout_conversion_absoluteWidth="535dp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="575dp"
-        android:layout_height="220dp"
+        android:id="@+id/bt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="save !"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="1465dp" />
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="-25dp"
+        tools:layout_editor_absoluteY="682dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/t3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email" />
+    </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

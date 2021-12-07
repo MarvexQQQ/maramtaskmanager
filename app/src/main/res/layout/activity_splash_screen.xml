@@ -11,7 +11,7 @@
         android:layout_width="336dp"
         android:layout_height="306dp"
         app:srcCompat="@mipmap/mylogo"
-        tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="226dp" />
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="279dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

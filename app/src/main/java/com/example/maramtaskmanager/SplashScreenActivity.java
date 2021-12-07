@@ -16,18 +16,19 @@ public class SplashScreenActivity extends AppCompatActivity {
         img1=findViewById(R.id.img1);
 
 
-        Thread th= new Thread(){
+        Thread th = new Thread() {
             @Override
             public void run() {
                 // here is the part that will run while others are running
-                int ms =3*1000;
+                int ms = 3 * 1000;
                 try {
                     sleep(ms);
-                    startActivity(new Intent(getApplicationContext(),SignUpActivity.class));
+                    startActivity(new Intent(getApplicationContext(), SignUpActivity.class));
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
             }
         };
+        th.start();
     }
 }
