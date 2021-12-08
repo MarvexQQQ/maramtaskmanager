@@ -85,9 +85,10 @@
         tools:layout_editor_absoluteX="2dp">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/t3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="t3" />
+            android:hint="Email" />
     </com.google.android.material.textfield.TextInputLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

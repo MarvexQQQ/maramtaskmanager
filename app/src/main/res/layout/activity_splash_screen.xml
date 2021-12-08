@@ -8,10 +8,10 @@
 
     <ImageView
         android:id="@+id/img1"
-        android:layout_width="336dp"
-        android:layout_height="306dp"
+        android:layout_width="216dp"
+        android:layout_height="226dp"
         app:srcCompat="@mipmap/mylogo"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="279dp" />
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="207dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
