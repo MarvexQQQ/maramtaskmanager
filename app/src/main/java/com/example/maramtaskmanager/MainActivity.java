@@ -14,6 +14,7 @@ import android.widget.SearchView;
 import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity  implements DialogInterface.OnClickListener {
     private SearchView hs;
@@ -77,7 +78,11 @@ public class MainActivity extends AppCompatActivity  implements DialogInterface.
         if(wich==dialogInterface.BUTTON_POSITIVE)
         {
             Toast.makeText(getApplicationContext(), "loging out", Toast.LENGTH_SHORT).show();
+            dialogInterface.cancel();
+            FirebaseAuth auth =FirebaseAuth.getInstance();
+            auth.signOut();//signing out
             finish();
+
         }
         if(wich==dialogInterface.BUTTON_POSITIVE)
         {

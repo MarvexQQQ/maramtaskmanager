@@ -16,7 +16,7 @@
             android:id="@+id/t1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="first name "
+            android:hint="first name"
             android:textSize="20sp" />
     </com.google.android.material.textfield.TextInputLayout>
 

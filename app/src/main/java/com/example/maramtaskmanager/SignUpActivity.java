@@ -60,7 +60,7 @@ public class SignUpActivity extends AppCompatActivity {
             t3.setError("wrong email ");
             isok=false;
         }
-        if (fname.length()<8)
+        if (fname.length()<2)
         {
            t1.setError("must enter full name");
            isok=false;
@@ -76,7 +76,7 @@ public class SignUpActivity extends AppCompatActivity {
             isok=false;
 
         }
-        if (number.length()==10)
+        if (number.length()!=10)
         {
             t5.setError("your number needs to be 10 digets ");
             isok=false;

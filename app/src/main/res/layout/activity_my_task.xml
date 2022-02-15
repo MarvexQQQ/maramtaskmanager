@@ -4,14 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashScreenActivity">
-
-    <ImageView
-        android:id="@+id/img1"
-        android:layout_width="216dp"
-        android:layout_height="226dp"
-        app:srcCompat="@mipmap/mylogo"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="281dp" />
+    tools:context=".MyTaskActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
